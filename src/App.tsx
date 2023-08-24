@@ -10,7 +10,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <div className={styles.App}>
+        <div className={`${styles.App} bg-red-400`}>
             <div className="">
                 asdasdasd
                 <a href="https://vitejs.dev" target="_blank">
